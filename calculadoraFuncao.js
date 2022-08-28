@@ -35,14 +35,9 @@ if (operacao == "+") {
 			console.log("A multiplicacao eh: " + multiplicacao)
 }else  
 if (operacao == "/") {
-	// var divisao = numero_01 / numero_02;
 	const calc = (num1, num2) => num1/num2;
 	var res = calc(numero_01,numero_02);
 	console.log("A divisao eh: "+res);
-
-
-	// const imprime = divisao => `O resultado da divisao eh: ${divisao}!!!`;
-	// imprime(divisao);
-} else {
+}else {
 	console.log("Operacao Invalida.");
 }
